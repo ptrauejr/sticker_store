@@ -47,6 +47,7 @@
     <orderEntry type="library" scope="PROVIDED" name="crass (v1.0.3, RVM: ruby-2.4.1 [stickers.win]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubi (v1.7.0, RVM: ruby-2.4.1 [stickers.win]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v2.7.0, RVM: ruby-2.4.1 [stickers.win]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="faraday (v0.13.1, RVM: ruby-2.4.1 [stickers.win]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ffi (v1.9.18, RVM: ruby-2.4.1 [stickers.win]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="globalid (v0.4.1, RVM: ruby-2.4.1 [stickers.win]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v0.9.1, RVM: ruby-2.4.1 [stickers.win]) [gem]" level="application" />
@@ -59,6 +60,7 @@
     <orderEntry type="library" scope="PROVIDED" name="mini_portile2 (v2.3.0, RVM: ruby-2.4.1 [stickers.win]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="minitest (v5.10.3, RVM: ruby-2.4.1 [stickers.win]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.12.2, RVM: ruby-2.4.1 [stickers.win]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="multipart-post (v2.0.0, RVM: ruby-2.4.1 [stickers.win]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nio4r (v2.1.0, RVM: ruby-2.4.1 [stickers.win]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.8.1, RVM: ruby-2.4.1 [stickers.win]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="public_suffix (v3.0.1, RVM: ruby-2.4.1 [stickers.win]) [gem]" level="application" />
@@ -83,6 +85,7 @@
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v3.7.1, RVM: ruby-2.4.1 [stickers.win]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets-rails (v3.2.1, RVM: ruby-2.4.1 [stickers.win]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sqlite3 (v1.3.13, RVM: ruby-2.4.1 [stickers.win]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="stripe (v3.9.0, RVM: ruby-2.4.1 [stickers.win]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="thor (v0.20.0, RVM: ruby-2.4.1 [stickers.win]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="thread_safe (v0.3.6, RVM: ruby-2.4.1 [stickers.win]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tilt (v2.0.8, RVM: ruby-2.4.1 [stickers.win]) [gem]" level="application" />
