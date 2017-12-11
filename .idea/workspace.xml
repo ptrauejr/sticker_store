@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2de0d2e-9b3c-452b-9894-1f889b6cf12f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/stickers.win.iml" afterPath="$PROJECT_DIR$/.idea/stickers.win.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/charges_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/charges_controller.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -56,7 +55,7 @@
         <entry file="file://$PROJECT_DIR$/app/controllers/charges_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="19" column="30" lean-forward="false" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+              <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -92,7 +91,7 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="57" />
+    <option name="x" value="56" />
     <option name="y" value="23" />
     <option name="width" value="1400" />
     <option name="height" value="934" />
@@ -319,15 +318,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1512941651511</updated>
-      <workItem from="1512941654234" duration="1762000" />
+      <workItem from="1512941654234" duration="2215000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1762000" />
+    <option name="totallyTimeSpent" value="2215000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="57" y="23" width="1400" height="934" extended-state="0" />
+    <frame x="56" y="23" width="1400" height="934" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496318" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -401,7 +400,7 @@
     <entry file="file://$PROJECT_DIR$/app/controllers/charges_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" column="30" lean-forward="false" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
           <folding />
         </state>
       </provider>
