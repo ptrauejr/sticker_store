@@ -6,7 +6,7 @@ class App extends Component {
     render () {
         return (
             <div>
-                <Store />
+                <Store proeucts={this.props.products}/>
             </div>
         )
     }
@@ -15,5 +15,7 @@ class App extends Component {
 export default App
 
 document.addEventListener('DOMContentLoaded', () => {
+    const node = document.getElementById('store_data')
+    const products = JSON.parse(node.getAttribute('data-products')).data
     ReactDOM.render(<App />, document.getElementById('store'))
 })
