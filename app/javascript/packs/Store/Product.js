@@ -1,4 +1,5 @@
 import React from 'react'
+import Sticker from './Sticker'
 
 const Product = ({product}) =>
     <div className="product">
