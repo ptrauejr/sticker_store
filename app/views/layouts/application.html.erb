@@ -10,8 +10,13 @@
 
   <body>
     <div class="container">
-      <h1><%= link_to "🔥 stickers.win 🚀", :root %></h1>
+      <header>
+        <h1><%= link_to "🔥 stickers.win 🚀", :root %></h1>
+        <p class="tagline">such sticker many wow</p>
+      </header>
       <%= yield %>
+      <div class="footer">
+      </div>
     </div>
   </body>
 </html>
