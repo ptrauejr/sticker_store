@@ -11,7 +11,8 @@ class Store extends Component {
             cart: {
                 items: {},
                 total: 0
-            }
+            },
+            message: ''
         }
     }
 
@@ -32,7 +33,7 @@ class Store extends Component {
     }
 
     onToken = (token) => {
-        const data = {...token, cart: this.state.cart}
+        let data = {...token, cart: this.state.cart}
         axios({
             url: '/charges',
             method: 'POST',
@@ -43,13 +44,15 @@ class Store extends Component {
             }
         })
             .then(response => {
-
+                let message = response.data.message
+                this.setState({message: message, cart: { items: {}, total: 0 }})
             })
     }
 
     render() {
         return (
             <div>
+                <h3>{this.state.message}</h3>
                 <Cart cart={this.state.cart} onToken={this.onToken} />
                 <ProductsList products={this.state.products} handleAdd={this.addToCart}
                               handleRemove={this.removeFromCart} />
