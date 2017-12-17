@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import ProductsList from './ProductsList'
 import Cart from './Cart'
+import axios from 'axios'
 
 class Store extends Component {
     constructor(props) {
@@ -30,10 +31,26 @@ class Store extends Component {
         }
     }
 
+    onToken = (token) => {
+        const data = {...token, cart: this.state.cart}
+        axios({
+            url: '/charges',
+            method: 'POST',
+            data: data,
+            headers: {
+                'Content-Type': 'application/json',
+                'X-CSRF-Token': document.querySelector('meta[name="csrf-token"]').content
+            }
+        })
+            .then(response => {
+                
+            })
+    }
+
     render() {
         return (
             <div>
-                <Cart cart={this.state.cart} />
+                <Cart cart={this.state.cart} onToken={this.onToken} />
                 <ProductsList products={this.state.products} handleAdd={this.addToCart}
                               handleRemove={this.removeFromCart} />
             </div>
