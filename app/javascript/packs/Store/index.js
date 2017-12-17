@@ -5,6 +5,7 @@ class Store extends Component {
     render() {
         return (
             <div>
+                <Cart />
                 <ProductsList products={this.props.products} />
             </div>
         )
