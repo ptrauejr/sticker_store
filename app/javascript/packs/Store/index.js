@@ -43,7 +43,7 @@ class Store extends Component {
             }
         })
             .then(response => {
-                
+
             })
     }
 
