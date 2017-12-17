@@ -8,6 +8,12 @@ const Product = ({product}) =>
             <img src={product.images[0]} alt={product.name} />
         </div>
         <h3>Free shipping anywhere in the world!</h3>
+
+        <div clasName="cartControls">
+            <button>+ Add to cart</button>
+            <button>- Remove from cart</button>
+        </div>
+
     </div>
 
 export default Product
